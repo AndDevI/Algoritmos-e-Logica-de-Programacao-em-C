@@ -12,6 +12,6 @@ int main() {
 
     media = (valorA + valorB) / 2;
 
-    printf("A media foi: %f \n", media);
+    printf("A media foi: %.2f \n", media);
   return 0;
 }
