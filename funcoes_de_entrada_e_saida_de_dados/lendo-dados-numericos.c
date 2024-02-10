@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+                   /*|Lendo dados numéricos|*/
 int main() {
   int valorA, valorB, resultado;      /*|Declaração de variáveis|*/
 
@@ -16,3 +17,4 @@ int main() {
     printf("%d + %d = %d\n", valorA, valorB, resultado);   /*|Mostrar valores digitados pelo o usuario|*/
   return 0;
 }
+
