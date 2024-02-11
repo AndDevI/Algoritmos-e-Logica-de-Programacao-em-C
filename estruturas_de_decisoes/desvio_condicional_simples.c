@@ -11,5 +11,5 @@ int main() {
     {
       printf("Numero digitado foi POSITIVO \n");
     }
-    
+   return 0; 
 }

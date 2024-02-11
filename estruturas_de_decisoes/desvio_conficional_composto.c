@@ -12,5 +12,5 @@ int main() {
     } else { /*SE NÃO o numero digitado pelo usuario é maior que 0 */
       printf("NEGATIVO \n");
     }
-    
+   return 0;
 }
