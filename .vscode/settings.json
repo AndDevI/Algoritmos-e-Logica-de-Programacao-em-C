@@ -28,5 +28,8 @@
       "source": "Git Bash"
     }
   },
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "files.associations": {
+    "desvio_conficional_multiplos": "c"
+  }
 }
