@@ -1,4 +1,6 @@
 //Escreva um programa que leia dois valores inteiros quaisquer, e escreva o maior deles. 
+#include <stdio.h>
+#include <stdlib.h>
 
 int main() {
     int valor1, valor2;
