@@ -55,7 +55,6 @@ int main() {
                   system("pause");
                 break;
               
-
             case 2:
                 if (lugaresDisponiveis < capacidade) {
                     lugaresDisponiveis++;
