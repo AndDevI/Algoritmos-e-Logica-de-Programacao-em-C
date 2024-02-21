@@ -24,15 +24,15 @@ int main() {
 
     
     if (x > 0 && y > 0) {
-      printf("O ponto (%.2f, %.2f) está no primeiro quadrante.\n", x, y);
+      printf("O ponto (%.2f, %.2f) esta no primeiro quadrante.\n", x, y);
     } else if (x < 0 && y > 0) {
-        printf("O ponto (%.2f, %.2f) está no segundo quadrante.\n", x, y);
+        printf("O ponto (%.2f, %.2f) esta no segundo quadrante.\n", x, y);
     } else if (x < 0 && y < 0) {
-        printf("O ponto (%.2f, %.2f) está no terceiro quadrante.\n", x, y);
+        printf("O ponto (%.2f, %.2f) esta no terceiro quadrante.\n", x, y);
     } else if (x > 0 && y < 0) {
-        printf("O ponto (%.2f, %.2f) está no quarto quadrante.\n", x, y);
+        printf("O ponto (%.2f, %.2f) esta no quarto quadrante.\n", x, y);
     } else {
-        printf("O ponto (%.2f, %.2f) está sobre um eixo ou no ponto de origem.\n", x, y);
+        printf("O ponto (%.2f, %.2f) esta sobre um eixo ou no ponto de origem.\n", x, y);
     }
  
   return 0;
