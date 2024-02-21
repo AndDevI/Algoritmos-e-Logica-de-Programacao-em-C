@@ -20,15 +20,15 @@ int main() {
     printf("Digite um numero:");
       scanf("%d", &numero);
 
-    if (numero >= 0 && numero <= 30) {
+    if (numero >= 0 && numero < 30) {
       printf("O Coeficiente de Inteligencia e ACEFALO \n");
-    } else if (numero > 30 && numero <= 50) {
+    } else if (numero >= 30 && numero < 50) {
         printf("O Coeficiente de Inteligencia e DEBIL MENTAL \n");
-    } else if (numero > 50 && numero <= 70) {
+    } else if (numero >= 50 && numero < 70) {
         printf("O Coeficiente de Inteligencia e REGULAR \n");
-    } else if (numero > 70 && numero <= 100) {
+    } else if (numero >= 70 && numero < 100) {
         printf("O Coeficiente de Inteligencia e NORMAL \n");
-    } else if (numero > 100 && numero <= 150) {
+    } else if (numero >= 100 && numero < 150) {
         printf("O Coeficiente de Inteligencia e GENIO \n");
     } else {
         printf("Valor digitado errado \n");
