@@ -24,7 +24,7 @@ int main() {
 
     
     if (x > 0 && y > 0) {
-      rintf("O ponto (%.2f, %.2f) está no primeiro quadrante.\n", x, y);
+      printf("O ponto (%.2f, %.2f) está no primeiro quadrante.\n", x, y);
     } else if (x < 0 && y > 0) {
         printf("O ponto (%.2f, %.2f) está no segundo quadrante.\n", x, y);
     } else if (x < 0 && y < 0) {
