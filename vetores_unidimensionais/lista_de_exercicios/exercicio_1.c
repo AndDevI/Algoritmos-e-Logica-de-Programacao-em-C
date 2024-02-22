@@ -7,16 +7,16 @@ Apresentar os vetores no final.
 #include <stdlib.h>
 
 int main() {
-  int vetorA[6], vetorB[6], i;
+  int vetorA[20], vetorB[20], i;
   
-    for (i = 0; i < 6; i++){
+    for (i = 0; i < 20; i++){
       printf("Digite um numero %d: \n", i+1);
         scanf("%d", &vetorA[i]);
       
       vetorB[i] = vetorA[i] * vetorA[i]; 
     }
     
-    for (i = 0; i < 6; i++){
+    for (i = 0; i < 20; i++){
       printf("O quadrado do numero %d e %d: \n", vetorA[i], vetorB[i]);
     }
 
