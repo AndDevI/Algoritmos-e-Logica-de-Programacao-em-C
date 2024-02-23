@@ -15,7 +15,7 @@ int main() {
     printf("Digite os elementos do vetor A:\n");
       for (i = 0; i < 20; i++) {
           printf("Digite um numero para o vetor A[%d]: ", i);
-          scanf("%d", &vetorA[i]);
+            scanf("%d", &vetorA[i]);
       }
 
     // Lê os elementos do vetor B
